@@ -1,0 +1,35 @@
+/* logos del footer */
+.logos__redes{
+    height: 80px;
+}
+
+/* grid seccion footer */
+.logos{
+    display: grid;
+    grid-template-columns: 30vw 10vw 10vw 10vw 10vw 30vw;
+    grid-template-rows: 100px 100px 100px;
+    text-align: center;
+    .face{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .spotify{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .youtube{
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+    .insta{
+        grid-column: 5 / 6;
+        grid-row: 2 / 3;
+    }
+    .copy{
+        grid-column: 2 / 6;
+        grid-row: 3 / 4;
+        color: white;
+    }
+}
+
+

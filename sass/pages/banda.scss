@@ -1,0 +1,42 @@
+/* flex integrantes */
+.grid-integrantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 100px;
+    margin: 80px 25px;
+}
+
+/* integrantes banda */
+.integrantes__fondo{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+
+$estilos: (
+  azul: #4285F4,
+  naranja: #E67E22
+);
+
+@mixin fondo($color){
+  @if map-has-key($estilos, $color){
+    background-color: map-get($estilos, $color);
+  } 
+}
+%btn {
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin: .5rem;
+  }
+
+.uno{
+  @include fondo(azul);
+  @extend %btn; 
+}
+.dos{
+  @include fondo(naranja);
+  @extend %btn;
+}

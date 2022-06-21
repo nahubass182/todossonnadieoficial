@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "mifuente";
+    src: url(../font/Rocks.png);
+}
+
+.mifuente{
+    font-family: "mifuente";
+    font-size: 70px;
+    background-color: darkgray;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 2px 1px;
+    border-style: groove;
+    border-color: black;
+}

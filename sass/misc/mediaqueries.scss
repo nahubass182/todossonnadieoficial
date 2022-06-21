@@ -1,0 +1,137 @@
+/* media queries paginas */
+@media (max-width: 1024px){
+    /* menu media */
+    .checkbtn{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .nav-menu ul{
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        background: darkgray;
+        width: 100%;
+        height: 100%;
+        right: 0;
+
+    }
+    .nav-menu ul li{
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+    .logo{
+        height: 200px;
+    }
+    /* disco nuevo media */
+    .grid-disconuevo{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 100px 200px 200px 100px;
+    }
+    .titulodisco{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .logocd{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .musicacd{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .logodisco{
+        height: 200px;
+    }
+    /* fechas */
+    .fechas{
+        font-size: 40px;
+    }
+    /* logos footer media */
+    .logos{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 150px 25px 25px 25px 25px 100px;
+    }
+    .face{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .spotify{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .youtube{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .insta{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    .copy{
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+        color: white;
+    }
+    .logos__redes{
+        height: 20px;
+    }
+    /* integrantes media */
+    .grid-integrantes{
+        display: flex;
+        padding: 0;
+    }
+    /* videos media */
+    .grid-videos{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 100px 200px 400px 400px 400px;
+    }
+    .titulovideos{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .video1{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .video2{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .video3{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    /* formulario media */
+    .grid-formulario{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 100px 200px 400px;
+    }
+    .tituloconsulta{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .gridformulario{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .articulohistoria{
+        display: flex;
+    }
+}

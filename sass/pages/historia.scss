@@ -1,0 +1,19 @@
+/* historia de la banda */
+.historia{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+/* flex historia */
+.articulohistoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 100px;
+    margin: 80px 25px;
+}
+.titulohistoria{
+    padding: 50px;
+}

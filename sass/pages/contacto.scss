@@ -1,0 +1,28 @@
+
+/* formulario */
+.formulario__opciones{
+    display: flex;
+    margin: 0 auto;
+    width: 400px
+   }
+   .formulario{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       color: white;
+   }
+
+   /* grid formulario */
+.grid-formulario{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100px 200px 400px;
+    text-align: center;
+    justify-content: center;
+}
+.tituloconsulta{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.gridformulario{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}

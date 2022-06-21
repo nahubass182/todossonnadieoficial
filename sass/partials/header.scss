@@ -1,0 +1,29 @@
+/* menu */
+
+.header{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nav-menu ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    .nav-menu li{
+        padding: 12px 26px;
+    }
+    .menu-icon img{
+        width: 30px;
+        height: 30px;
+        border-radius: 2px;
+    }
+    .menu-icon, #check{
+        display: none;
+    }
+    .menu__lista{
+        font-family: "mifuente";
+        font-size: 50px;
+        color: black;
+    }
+}

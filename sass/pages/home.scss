@@ -1,0 +1,60 @@
+/* logo pagina principal */
+.primerlogos{
+    display: flex;
+    justify-content: center;
+    
+    .logo{
+        height: 500px;
+    }
+}
+
+/* tamaño logo disco */
+.logodisco{
+    height: 400px;
+}
+
+/* grid seccion disco */
+.grid-disconuevo{
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw;
+    grid-template-rows: 100px 200px 400px;
+    text-align: center;
+    align-items: center;
+    .titulodisco{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .logocd{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .musicacd{
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    }
+
+
+/* fechas recitales */
+.fechas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    padding: 10px;
+    color: white;
+}
+
+/* grid seccion fechas */
+.grid-fechas{
+    display: grid;
+    grid-template-columns: 35vw 30vw 35vw;
+    grid-template-rows: 100px 200px 400px;
+    text-align: center;
+    .grid-shows{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3; 
+    }
+    .fechas{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;  
+    }
+}
